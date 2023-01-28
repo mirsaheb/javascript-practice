@@ -76,3 +76,24 @@ rice += 10;
 
  document.getElementById('output-7').innerHTML = typeof(isHappy);
  document.getElementById('output-8').innerHTML = typeof(test);
+
+ var number1 = .1;
+ var number2 = .2;
+
+ var number1 = .1;
+ var number2 = .2;
+
+ document.getElementById("output-9").innerHTML = number1+number2;
+ var number3 = .15;
+ var number4 = .15;
+
+ document.getElementById("output-10").innerHTML = number3+number4;
+
+
+ document.getElementById("output-11").innerHTML = (number1+number2).toFixed(1);
+
+ var mango = 55;
+ var person = 4;
+ document.getElementById("output-12").innerHTML ='Rest of the mango: '+ mango%person;
+
+ 
