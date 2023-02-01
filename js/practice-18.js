@@ -38,3 +38,87 @@ var myBudget = 170000;
 if(iPhone<myBudget){
     console.log("Hurree I am able to buy iPhone");
 }
+
+var fruits = ['apple', 'banana', 'orange','lemon']
+
+fruits[3]='water melon'
+
+console.log(fruits);
+
+console.log(fruits.indexOf('orange')) ;
+
+    var friendsName = ['Tom', 'Jane', 'pitter', 'Jhon'];
+    var grade = ['A', 'B','C','D','F']
+    var point = [80,60,50,40,39]
+    var marks = [85, 66, 95, 56];
+
+        if(marks[0]>=point[0]){
+            console.log(friendsName[0]+' pease '+grade[0])
+            }else if(marks[0]>=point[1]){
+            console.log(friendsName[0]+' pease '+grade[1])  
+            }else if(marks[0]>=point[2]){
+            console.log(friendsName[0]+' pease '+grade[2])  
+            }else if(marks[0]>=point[3]){
+            console.log(friendsName[0]+' pease '+grade[3])  
+            }else if(marks[0]<=point[4]){
+            console.log(friendsName[0]+' pease '+grade[4])  
+        }
+
+
+
+        if(marks[1]>=point[0]){
+            console.log(friendsName[1]+' pease '+grade[0])
+            }else if(marks[1]>=point[1]){
+            console.log(friendsName[1]+' pease '+grade[1])  
+            }else if(marks[1]>=point[2]){
+            console.log(friendsName[1]+' pease '+grade[2])  
+            }else if(marks[1]>=point[3]){
+            console.log(friendsName[1]+' pease '+grade[3])  
+            }else if(marks[1]<=point[4]){
+            console.log(friendsName[1]+' pease '+grade[4])  
+        }
+
+        if(marks[2]>=point[0]){
+            console.log(friendsName[2]+' pease '+grade[0])
+            }else if(marks[2]>=point[1]){
+            console.log(friendsName[2]+' pease '+grade[1])  
+            }else if(marks[2]>=point[2]){
+           console.log(friendsName[2]+' pease '+grade[2])  
+            }else if(marks[2]>=point[3]){
+           console.log(friendsName[2]+' pease '+grade[3])  
+            }else if(marks[2]<=point[4]){
+           console.log(friendsName[2]+' pease '+grade[4])  
+        }
+
+        if(marks[3]>=point[0]){
+            console.log(friendsName[3]+' pease '+grade[0])
+            }else if(marks[3]>=point[1]){
+            console.log(friendsName[3]+' pease '+grade[1])  
+            }else if(marks[3]>=point[2]){
+            console.log(friendsName[3]+' pease '+grade[2])  
+            }else if(marks[3]>=point[3]){
+            console.log(friendsName[3]+' pease '+grade[3])  
+            }else if(marks[3]<=point[4]){
+            console.log(friendsName[3]+' pease '+grade[4])  
+        }
+
+// Find The highest Value in Array Index 
+             (function () {
+                const arr = [13,79,45];
+              
+                function findMaxArrValue(arr) {
+                  if (arr.length) {
+                    let max = -Infinity;
+              
+                    for (let num of arr) {
+                      max = num > max ? num : max;
+                    }
+                    return max;
+                  }
+                  return 0; // or any value what you need
+                }
+              
+                console.log(findMaxArrValue(arr)); // => 88
+              })();
+              
+             
