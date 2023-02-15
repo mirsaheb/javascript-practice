@@ -28,7 +28,6 @@
 //         console.log(name)
 //     }
 // }
-
 // const uniqueNames= removeDuplicates(names)
 
 const names = ['abul', 'babul', 'kabul', 'chabul', 'atik', 'protik', 'hassan', 'rafiq', 'shofiq', 'kabul', 'rafiq', 'abul', 'atik', 'babul', 'abul', 'kabul', 'abul'];
@@ -44,3 +43,18 @@ function removeDuplicate(names){
 }
 const uniqueNames = removeDuplicate(names);
 console.log(uniqueNames);
+
+
+function findingBadData(age){
+    const badData = [];
+    for(let i =0; i<age.length; i++){
+        const data= age[i];
+        console.log(data);
+        if(data< 0){
+            badData.push(data);
+        }
+    }
+    return badData;
+}
+var removeBadData =findingBadData([20, 30, -17, 35, 22, -40, 55, -34, -47, 18] );
+console.log(removeBadData.length);
